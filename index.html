@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(122, 235, 237);
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(0, 196, 199);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a:hover {
+            color: rgb(255, 0, 221);
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background: black;
+            height: 2px;
+            margin: 40px 50px;
+        }
+
+        .left {
+            font-size: 1.8rem;
+            font-weight: bold;
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 50px 0;
+            width: 30%;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .rightSection img {
+            width: 100%;
+
+        }
+
+        .purple {
+            color: rgb(247, 9, 203);
+        }
+
+        .text-gray {
+            color: rgb(91, 91, 112);
+        }
+
+        #element {
+            color: rgb(247, 9, 203);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondSection .box {
+            background: black;
+            width: 77vw;
+            height: 2px;
+            margin: 70px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 60px;
+            width: 2px;
+            background: black;
+            margin: 0 90px;
+        }
+
+        .image-top {
+            width: 37px;
+            position: relative;
+            top: -40px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 40px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 40px;
+            color: rgb(91, 91, 112);
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(0, 196, 199);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 80px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 200px;
+        }
+        .footer.footer-rights{
+            text-align: center;
+            color: gray;
+            margin:10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vikash Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Exprience</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                My Name is <span class="purple"> Vikash kushwaha</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis maiores illo deserunt
+                        sit itaque accusamus quae facere asperiores, fugiat eius repellendus aliquam tempora odio eaque
+                        quam optio consectetur provident?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="css.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis maiores illo deserunt
+                        sit itaque accusamus quae facere asperiores, fugiat eius repellendus aliquam tempora odio eaque
+                        quam optio consectetur provident?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="java.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        JAVA Script Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis maiores illo deserunt
+                        sit itaque accusamus quae facere asperiores, fugiat eius repellendus aliquam tempora odio eaque
+                        quam optio consectetur provident?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="sql.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        My Sql
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis maiores illo deserunt
+                        sit itaque accusamus quae facere asperiores, fugiat eius repellendus aliquam tempora odio eaque
+                        quam optio consectetur provident?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vikash's developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.vikashportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'Android Developer', 'JAVA Developer'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
